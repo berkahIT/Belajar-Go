@@ -84,6 +84,14 @@ import (
 	// 	fmt.Println("==============")
 	// }
 	
+	//jalanin server
+	// 	r := gin.Default()
+	// 	r.GET("/getMahasiswa", func(c *gin.Context) {
+	// 		var mahasiswa[]model.Mahasiswa
+	// 		db.Find(&mahasiswa)
+	// 		c.JSON(http.StatusOK, &mahasiswa)
+	// 	})
+	// 	r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
 
 
   }
